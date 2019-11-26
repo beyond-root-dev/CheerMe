@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8413D824238D2E29007E9655 /* CMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413D823238D2E29007E9655 /* CMView.swift */; };
+		8413D826238D2E33007E9655 /* CMView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8413D825238D2E33007E9655 /* CMView.xib */; };
 		84D956C2238BDBC900E38A23 /* CheerMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D956B8238BDBC900E38A23 /* CheerMe.framework */; };
 		84D956C7238BDBC900E38A23 /* CheerMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D956C6238BDBC900E38A23 /* CheerMeTests.swift */; };
 		84D956C9238BDBC900E38A23 /* CheerMe.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D956BB238BDBC900E38A23 /* CheerMe.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8413D823238D2E29007E9655 /* CMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMView.swift; sourceTree = "<group>"; };
+		8413D825238D2E33007E9655 /* CMView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CMView.xib; sourceTree = "<group>"; };
 		84D956B8238BDBC900E38A23 /* CheerMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CheerMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D956BB238BDBC900E38A23 /* CheerMe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheerMe.h; sourceTree = "<group>"; };
 		84D956BC238BDBC900E38A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 				84D956BB238BDBC900E38A23 /* CheerMe.h */,
 				84D9576C238BFF7800E38A23 /* CMFloatButton.swift */,
 				84D95770238C015000E38A23 /* CMFloatButton.xib */,
+				8413D823238D2E29007E9655 /* CMView.swift */,
+				8413D825238D2E33007E9655 /* CMView.xib */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -198,6 +204,7 @@
 			files = (
 				84D95771238C015000E38A23 /* CMFloatButton.xib in Resources */,
 				84D956D5238BDD4000E38A23 /* Media.xcassets in Resources */,
+				8413D826238D2E33007E9655 /* CMView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8413D824238D2E29007E9655 /* CMView.swift in Sources */,
 				84D9576D238BFF7800E38A23 /* CMFloatButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
