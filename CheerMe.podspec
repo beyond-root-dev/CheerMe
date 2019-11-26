@@ -24,10 +24,10 @@ s.source = { :git => "https://github.com/beyond-root-dev/CheerMe.git",
              :tag => "#{s.version}" }
 
 # 7
-s.source_files = "RWPickFlavor/**/*.{swift}"
+s.source_files = "CheerMe/**/*.{swift}"
 
 # 8
-s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.resources = "CheerMe/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 9
 s.swift_version = "5"
