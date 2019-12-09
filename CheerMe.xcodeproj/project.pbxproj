@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8413D824238D2E29007E9655 /* CMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413D823238D2E29007E9655 /* CMView.swift */; };
-		8413D826238D2E33007E9655 /* CMView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8413D825238D2E33007E9655 /* CMView.xib */; };
+		8413D828238D51EE007E9655 /* CMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413D827238D51EE007E9655 /* CMButton.swift */; };
+		8413D833238D6397007E9655 /* CMButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8413D832238D6397007E9655 /* CMButton.xib */; };
+		84166BDD23993D1700148EE5 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84166BDB23993D1700148EE5 /* WelcomeVC.swift */; };
+		84166BDE23993D1700148EE5 /* WelcomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84166BDC23993D1700148EE5 /* WelcomeVC.xib */; };
+		843BDA5A239A22F30067A41B /* CMFloatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843BDA59239A22F30067A41B /* CMFloatButton.swift */; };
+		843BDA5C239A2BA50067A41B /* CMFloatButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843BDA5B239A2BA50067A41B /* CMFloatButton.xib */; };
 		84D956C2238BDBC900E38A23 /* CheerMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D956B8238BDBC900E38A23 /* CheerMe.framework */; };
 		84D956C7238BDBC900E38A23 /* CheerMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D956C6238BDBC900E38A23 /* CheerMeTests.swift */; };
 		84D956C9238BDBC900E38A23 /* CheerMe.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D956BB238BDBC900E38A23 /* CheerMe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84D956D5238BDD4000E38A23 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D956D4238BDD4000E38A23 /* Media.xcassets */; };
-		84D9576D238BFF7800E38A23 /* CMFloatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9576C238BFF7800E38A23 /* CMFloatButton.swift */; };
-		84D95771238C015000E38A23 /* CMFloatButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D95770238C015000E38A23 /* CMFloatButton.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8413D823238D2E29007E9655 /* CMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMView.swift; sourceTree = "<group>"; };
-		8413D825238D2E33007E9655 /* CMView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CMView.xib; sourceTree = "<group>"; };
+		8413D827238D51EE007E9655 /* CMButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMButton.swift; sourceTree = "<group>"; };
+		8413D832238D6397007E9655 /* CMButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CMButton.xib; sourceTree = "<group>"; };
+		84166BDB23993D1700148EE5 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		84166BDC23993D1700148EE5 /* WelcomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeVC.xib; sourceTree = "<group>"; };
+		843BDA59239A22F30067A41B /* CMFloatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMFloatButton.swift; sourceTree = "<group>"; };
+		843BDA5B239A2BA50067A41B /* CMFloatButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CMFloatButton.xib; sourceTree = "<group>"; };
 		84D956B8238BDBC900E38A23 /* CheerMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CheerMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D956BB238BDBC900E38A23 /* CheerMe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheerMe.h; sourceTree = "<group>"; };
 		84D956BC238BDBC900E38A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,8 +43,6 @@
 		84D956C6238BDBC900E38A23 /* CheerMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheerMeTests.swift; sourceTree = "<group>"; };
 		84D956C8238BDBC900E38A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84D956D4238BDD4000E38A23 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		84D9576C238BFF7800E38A23 /* CMFloatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMFloatButton.swift; sourceTree = "<group>"; };
-		84D95770238C015000E38A23 /* CMFloatButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CMFloatButton.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84166BD823993CC200148EE5 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				84166BDB23993D1700148EE5 /* WelcomeVC.swift */,
+				84166BDC23993D1700148EE5 /* WelcomeVC.xib */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
 		84D956AE238BDBC900E38A23 = {
 			isa = PBXGroup;
 			children = (
@@ -100,11 +113,12 @@
 		84D956D3238BDD0200E38A23 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				84166BD823993CC200148EE5 /* Welcome */,
 				84D956BB238BDBC900E38A23 /* CheerMe.h */,
-				84D9576C238BFF7800E38A23 /* CMFloatButton.swift */,
-				84D95770238C015000E38A23 /* CMFloatButton.xib */,
-				8413D823238D2E29007E9655 /* CMView.swift */,
-				8413D825238D2E33007E9655 /* CMView.xib */,
+				8413D827238D51EE007E9655 /* CMButton.swift */,
+				8413D832238D6397007E9655 /* CMButton.xib */,
+				843BDA59239A22F30067A41B /* CMFloatButton.swift */,
+				843BDA5B239A2BA50067A41B /* CMFloatButton.xib */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -202,9 +216,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84D95771238C015000E38A23 /* CMFloatButton.xib in Resources */,
+				843BDA5C239A2BA50067A41B /* CMFloatButton.xib in Resources */,
+				8413D833238D6397007E9655 /* CMButton.xib in Resources */,
+				84166BDE23993D1700148EE5 /* WelcomeVC.xib in Resources */,
 				84D956D5238BDD4000E38A23 /* Media.xcassets in Resources */,
-				8413D826238D2E33007E9655 /* CMView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,8 +237,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8413D824238D2E29007E9655 /* CMView.swift in Sources */,
-				84D9576D238BFF7800E38A23 /* CMFloatButton.swift in Sources */,
+				8413D828238D51EE007E9655 /* CMButton.swift in Sources */,
+				843BDA5A239A22F30067A41B /* CMFloatButton.swift in Sources */,
+				84166BDD23993D1700148EE5 /* WelcomeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +400,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test1.CheerMe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.framework.cheerMe;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -411,7 +427,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test1.CheerMe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.framework.cheerMe;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
