@@ -175,7 +175,7 @@ import QuartzCore
         print("Button tapped")
         
         sendActions(for: .touchUpInside)
-        let frameworkBundleID  = "com.framework.cheerMe";
+        let frameworkBundleID  = "org.cocoapods.CheerMe";
         let bundle = Bundle.init(identifier: frameworkBundleID)
         let welcomeVC = WelcomeVC(nibName: "WelcomeVC", bundle: bundle)
         UIApplication.shared.keyWindow?.rootViewController?.present(welcomeVC, animated: true, completion: nil)
