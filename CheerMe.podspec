@@ -4,11 +4,11 @@ Pod::Spec.new do |s|
 s.platform = :ios
 s.ios.deployment_target = '11.0'
 s.name = "CheerMe"
-s.summary = "Rewards"
+s.summary = "Rewards Module"
 s.requires_arc = true
 
 # 2
-s.version = "0.0.4"
+s.version = "0.0.5"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
