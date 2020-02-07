@@ -90,7 +90,6 @@ public class CheerMeController: UIViewController {
         view.backgroundColor = .clear
         
         var cheerMeURL = URL.init(string: "http://ec2-35-154-186-154.ap-south-1.compute.amazonaws.com:4142")
-        
         if self.customerId == nil {
             cheerMeURL = URL.init(string: "http://ec2-35-154-186-154.ap-south-1.compute.amazonaws.com:4142/?publicKey="+self.publicKey)
         }
@@ -121,9 +120,6 @@ public class CheerMeController: UIViewController {
         
         webView.addSubview(activityIndicator)
         
-//        rewardView = RewardView.init(frame: view.frame)
-//        view.addSubview(rewardView)
-        
         let cancelBtn = UIButton.init(type: .custom)
         let frameworkBundleID  = "org.cocoapods.CheerMe";
         let bundle = Bundle.init(identifier: frameworkBundleID)
@@ -131,8 +127,6 @@ public class CheerMeController: UIViewController {
         cancelBtn.frame = CGRect.init(x: webView.frame.size.width-30, y: 0, width: 30, height: 30)
         webView.addSubview(cancelBtn)
         self.view = view
-//        self.button = cancelBtn
-//        window.button = cancelBtn
         self.rewardView = webView
         window.rewardView = rewardView
         cancelBtn.addTarget(self, action: #selector(cancelButtonWasTapped), for: .touchUpInside)
