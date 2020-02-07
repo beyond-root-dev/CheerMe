@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		841115A523ED7D590020171C /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841115A423ED7D590020171C /* Image.xcassets */; };
-		8411567A23D6BE3C00ADCA84 /* RewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411567923D6BE3C00ADCA84 /* RewardView.swift */; };
-		8411567C23D6BE4A00ADCA84 /* RewardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8411567B23D6BE4A00ADCA84 /* RewardView.xib */; };
 		8411B16623EBE8C8001C4C2A /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411B16423EBE8C8001C4C2A /* TestViewController.swift */; };
 		8411B16723EBE8C8001C4C2A /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8411B16523EBE8C8001C4C2A /* TestViewController.xib */; };
 		841281A223E950D800F1253A /* CheerMeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841281A123E950D700F1253A /* CheerMeController.swift */; };
@@ -67,8 +65,6 @@
 
 /* Begin PBXFileReference section */
 		841115A423ED7D590020171C /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
-		8411567923D6BE3C00ADCA84 /* RewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardView.swift; sourceTree = "<group>"; };
-		8411567B23D6BE4A00ADCA84 /* RewardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RewardView.xib; sourceTree = "<group>"; };
 		8411B16423EBE8C8001C4C2A /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		8411B16523EBE8C8001C4C2A /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 		841281A123E950D700F1253A /* CheerMeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheerMeController.swift; sourceTree = "<group>"; };
@@ -118,15 +114,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8411567623D6BD8500ADCA84 /* RewardView */ = {
-			isa = PBXGroup;
-			children = (
-				8411567923D6BE3C00ADCA84 /* RewardView.swift */,
-				8411567B23D6BE4A00ADCA84 /* RewardView.xib */,
-			);
-			path = RewardView;
-			sourceTree = "<group>";
-		};
 		841281A023E950AC00F1253A /* CheerMe Button */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,7 +208,6 @@
 			isa = PBXGroup;
 			children = (
 				841281A023E950AC00F1253A /* CheerMe Button */,
-				8411567623D6BD8500ADCA84 /* RewardView */,
 				84D956BB238BDBC900E38A23 /* CheerMe.h */,
 			);
 			path = Sources;
@@ -339,7 +325,6 @@
 				8413B312239E7BCB004F879B /* Poppins-SemiBold.otf in Resources */,
 				8413B319239E7BCB004F879B /* Poppins-Black.otf in Resources */,
 				841115A523ED7D590020171C /* Image.xcassets in Resources */,
-				8411567C23D6BE4A00ADCA84 /* RewardView.xib in Resources */,
 				8413B30C239E7BCB004F879B /* Poppins-ExtraLightItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,7 +353,6 @@
 				841281A223E950D800F1253A /* CheerMeController.swift in Sources */,
 				8413B324239E7BE4004F879B /* Poppins-ExtraLight.otf in Sources */,
 				8413B325239E7BE4004F879B /* Poppins-ExtraLightItalic.otf in Sources */,
-				8411567A23D6BE3C00ADCA84 /* RewardView.swift in Sources */,
 				8413B326239E7BE4004F879B /* Poppins-Italic.otf in Sources */,
 				8413B327239E7BE4004F879B /* Poppins-Light.otf in Sources */,
 				8413B328239E7BE4004F879B /* Poppins-LightItalic.otf in Sources */,
