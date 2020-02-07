@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 s.platform = :ios
 s.ios.deployment_target = '11.0'
 s.name = "CheerMe"
-s.summary = "Rewards Module"
+s.summary = "Rewards"
 s.requires_arc = true
 
 # 2
