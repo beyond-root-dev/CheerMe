@@ -8,7 +8,7 @@ s.summary = "Rewards"
 s.requires_arc = true
 
 # 2
-s.version = "0.0.7"
+s.version = "0.0.9"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
