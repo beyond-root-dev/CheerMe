@@ -56,8 +56,8 @@ public class CheerMeController: UIViewController {
         let view = UIView()
         let button = UIButton(type: .custom)
         
-        let frameworkBundleID  = "org.cocoapods.CheerMe";
-        let bundle = Bundle.init(identifier: frameworkBundleID)
+//        let frameworkBundleID  = "org.cocoapods.CheerMe";
+//        let bundle = Bundle.init(identifier: frameworkBundleID)
         button.setImage(UIImage.init(named: "plus", in: Bundle.init(for: CheerMeController.classForCoder()), compatibleWith: nil), for: .normal)
         
         button.setTitleColor(UIColor.green, for: .normal)
@@ -121,8 +121,8 @@ public class CheerMeController: UIViewController {
         webView.addSubview(activityIndicator)
         
         let cancelBtn = UIButton.init(type: .custom)
-        let frameworkBundleID  = "org.cocoapods.CheerMe";
-        let bundle = Bundle.init(identifier: frameworkBundleID)
+//        let frameworkBundleID  = "org.cocoapods.CheerMe";
+//        let bundle = Bundle.init(identifier: frameworkBundleID)
         cancelBtn.setImage(UIImage.init(named: "close", in: Bundle.init(for: CheerMeController.classForCoder()), compatibleWith: nil), for: .normal)
         cancelBtn.frame = CGRect.init(x: webView.frame.size.width-30, y: 0, width: 30, height: 30)
         webView.addSubview(cancelBtn)
