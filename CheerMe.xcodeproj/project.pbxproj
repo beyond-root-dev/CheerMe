@@ -89,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				84D956BA238BDBC900E38A23 /* CheerMe */,
-				8413B2E6239E7B9C004F879B /* Resources */,
 				84D956C5238BDBC900E38A23 /* CheerMeTests */,
 				84D956B9238BDBC900E38A23 /* Products */,
 			);
@@ -109,6 +108,7 @@
 			children = (
 				84D956D3238BDD0200E38A23 /* Sources */,
 				84D956BC238BDBC900E38A23 /* Info.plist */,
+				8413B2E6239E7B9C004F879B /* Resources */,
 			);
 			path = CheerMe;
 			sourceTree = "<group>";
