@@ -120,10 +120,6 @@ public class CheerMeController: UIViewController {
         let view = UIView()
         let button = UIButton(type: .custom)
         
-        //        let frameworkBundleID  = "org.cocoapods.CheerMe";
-        //        let bundle = Bundle.init(identifier: frameworkBundleID)
-        //        button.setImage(UIImage.init(named: "plus", in: Bundle.init(for: CheerMeController.classForCoder()), compatibleWith: nil), for: .normal)
-        
         button.imageEdgeInsets = UIEdgeInsets.init(top: 12, left: 12, bottom: 12, right: 12)
         button.setImage(launcherImage, for: .normal)
         button.setTitleColor(UIColor.green, for: .normal)
