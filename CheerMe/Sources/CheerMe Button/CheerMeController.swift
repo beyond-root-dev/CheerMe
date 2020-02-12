@@ -56,7 +56,7 @@ public class CheerMeController: UIViewController {
         
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidShow(note:)), name: UIResponder.keyboardDidShowNotification, object: nil)
         
-        var semaphore = DispatchSemaphore (value: 0)
+        let semaphore = DispatchSemaphore (value: 0)
         
         var request = URLRequest(url: URL(string: "http://ec2-35-154-186-154.ap-south-1.compute.amazonaws.com:4242/api/Public/Widget/Get")!,timeoutInterval: Double.infinity)
         request.addValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
